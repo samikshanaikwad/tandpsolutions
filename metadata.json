@@ -1,0 +1,6 @@
+{
+  "name": "T & P Solution",
+  "description": "SPM and Control Panel Manufacturing Company - Custom Control Panels, Special Purpose Machines, and End-to-End Industrial Automation",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

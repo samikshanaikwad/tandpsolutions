@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0B2F64;
+  --lime: #61C014;
+  --amber: #E87722;
+  --slate: #F8FAFC;
+}
+
+body {
+  background-color: #F8FAFC;
+  color: #1E293B;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.card-hover {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-hover:hover {
+  border-color: #CBD5E1;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+}
+
+.accent-border {
+  border-left: 4px solid var(--lime);
+}
+
+.accent-border-navy {
+  border-left: 4px solid var(--navy);
+}
+
+.accent-border-amber {
+  border-left: 4px solid var(--amber);
+}
+
+.btn-primary {
+  background-color: var(--navy);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.15s ease-in-out;
+}
+.btn-primary:hover {
+  background-color: #071f43;
+}
+
+.btn-accent {
+  background-color: var(--lime);
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.15s ease-in-out;
+}
+.btn-accent:hover {
+  background-color: #4EAF0A;
+}
+
+.text-navy {
+  color: var(--navy);
+}
+.text-lime {
+  color: var(--lime);
+}
+.text-amber {
+  color: var(--amber);
+}
